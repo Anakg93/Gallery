@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" 
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" 
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="./js/javascript.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="white" class="bi bi-award" viewBox="0 0 16 16">
+                <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+              </svg>
+            <a class="navbar-brand" href="#">Nature</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+                </li> 
+                <li class="nav-item">
+                <a class="nav-link" onclick="goToPage('index2.html')" href="#" >Contact</a>
+                
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <div class="imageContainer">
+            <div class="rowImage1">
+               <a href="img/IMG-0f94337addc37966022562223460e2a9-V.jpg" data-lightbox="images"> <img id="image1"  src="./img/IMG-0f94337addc37966022562223460e2a9-V.jpg"/></a>
+            </div>
+            <div class="rowImage2">
+               <a href="img/IMG_20210315_150121_856.jpg" data-lightbox="images"> <img id="image2" data-lightbox="images" src="./img/IMG_20210315_150121_856.jpg"/> </a>
+               <a href="img/IMG-2695a03f05a6b3eaa38faabf5e87d236-V.jpg" data-lightbox="images"> <img id="image3" data-lightbox="images" src="./img/IMG-2695a03f05a6b3eaa38faabf5e87d236-V.jpg"/> </a>
+            </div>
+            <div class="rowImage3">
+                <a href="img/IMG-1cdfdd008c1872f7c722acd923d11f6c-V.jpg" data-lightbox="images"><img id="image4" data-lightbox="images" src="./img/IMG-1cdfdd008c1872f7c722acd923d11f6c-V.jpg"/></a>
+                <a href="img/IMG_20210125_235747.jpg" data-lightbox="images">  <img id="image5" data-lightbox="images" src="./img/IMG_20210125_235747.jpg"/> </a>
+                <a href="img/IMG-ec5e4a6292326483c98b0b7fc4e0c915-V.jpg" data-lightbox="images"> <img id="image6" data-lightbox="images" src="./img/IMG-ec5e4a6292326483c98b0b7fc4e0c915-V.jpg"/> </a>
+            </div>       
+        </div>
+        </div>
+
+</body>
+</html>
